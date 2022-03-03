@@ -15,7 +15,6 @@ import { axios } from "../../axios/axios";
 
 const AddTutorial = () => {
   const [open, setOpen] = useState(false);
-
   const {
     register,
     handleSubmit,
